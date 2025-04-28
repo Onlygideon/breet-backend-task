@@ -15,8 +15,7 @@ Breet Backend API is a Node.js-based server application designed to handle shopp
 - **Product Management**: Allows creation, fetching, and update of products in the inventory.
 - **Cart Management**: Users can add and remove items from their shopping cart, while ensuring data consistency.
 - **Checkout Process**: Ensures accurate stock levels during checkout and prevents overselling.
-- **Concurrency Handling**: Uses Redis to lock resources (e.g., cart) to handle concurrent requests and prevent race conditions.
-- **Caching**: Product data and cart information are cached in Redis to improve performance.
+- **Concurrency Handling**: Uses Redis to lock resources (cart) to handle concurrent requests and prevent race conditions.
 - **Atomic Operations**: MongoDB is used to handle atomic updates to product stock and cart data.
 
 ## Installation
