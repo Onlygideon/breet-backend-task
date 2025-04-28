@@ -21,7 +21,7 @@ Breet Backend API is a Node.js-based server application designed to handle shopp
 
 ## Installation
 
-### 1. Clone the repository
+### 1. Clone the repository - git clone https://github.com/Onlygideon/breet-backend-task.git
 
 ### 2. Npm Install
 
