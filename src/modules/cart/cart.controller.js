@@ -128,7 +128,7 @@ export default class CartController {
       if (response.success) {
         return this._handler.success(res, response.data);
       } else {
-        return this._handler.notFound(res, response.error);
+        return this._handler.badRequest(res, response.error);
       }
     } catch (error) {
       return this._handler.internalServerError(res, error.message || error);
